@@ -1,15 +1,12 @@
 import java.util.Scanner;
 
-public class TaskQ {
+public class TaskR {
     public static void main(String[] args) {
-
         Scanner input = new Scanner(System.in);
         int n = input.nextInt();
-        int m = input.nextInt();
-
-        int d = (m + n - 1) / n;
-
-        System.out.println(d);
-
+        int k = input.nextInt();
+        int c = n-k%n;
+        int t = c%n;
+        System.out.println(t);
     }
 }
